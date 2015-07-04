@@ -1,1 +1,1 @@
-# formula-one-simulator
+# Formula One simulator
