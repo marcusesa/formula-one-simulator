@@ -10,7 +10,7 @@ $ npm install
 ## Testing
 
 ``` bash
-$ karma
+$ karma start
 ```
 
 ## License
