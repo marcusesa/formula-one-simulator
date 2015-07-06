@@ -15,8 +15,11 @@ module.exports = function(config) {
 
     // list of files / patterns to load in the browser
     files: [
-      'src/**/*.js',
-      'tests/**/*.js'
+      'bower_components/angular/angular.min.js',
+      'bower_components/angular-mocks/angular-mocks.js',
+      'node_modules/*',
+      'src/FormulaOne/DataServices/GERequest.js',
+      'tests/unit/FormulaOne/DataServices/GERequestSpec.js'
     ],
 
 
@@ -51,7 +54,7 @@ module.exports = function(config) {
 
 
     // enable / disable watching file and executing tests whenever any file changes
-    autoWatch: false,
+    autoWatch: true,
 
 
     // start these browsers
